@@ -1,9 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  darkMode: "class",
+  content: ["*"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        jakarta: ['"Plus Jakarta Sans", sans-serif'],
+      },
+    },
   },
   plugins: [],
-}
-
+};
